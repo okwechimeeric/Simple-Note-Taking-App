@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Note App</title>
+	<link rel="stylesheet" href="asset/main.css" >
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+	<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&amp;subset=latin' rel='stylesheet' type='text/css'>
+
+</head>
+<body style="background-color: #B2CCCC;">
+<div id="header">
+<p>
+Simple Note-App
+</p>
+</div>
+<div class="container">    
+	<center>
+	<div  id="addnote">
+	<p style="text-align:left;color:red">Choose Note Colour</p>
+	<button class="button button1" data-value="pink"></button>
+	<button class="button button2" data-value="#FB9292"></button>
+	<button class="button button3" data-value="white"></button>
+	<button class="button button4" data-value="#4CAF50"></button>
+	<button class="button button5" data-value="#F7B3FE"></button> 
+	
+		<textarea id="txt_note"></textarea>
+		<br/><br/>
+		<center><input class="btn" type="button" id="btn_add" value = "Save"></input>
+		<input class="btn" type="button" onclick=location.reload() value = "Cancel"></input>
+		</center>
+	</div>
+	</center>
+	
+	<ul id="notes">
+	
+	</ul>
+	
+</div>
+	<div class="btn-fab"><a  style="color:white !important" ><i class="fa fa-plus"></i></a> </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src= "asset/main.js"></script>
+		
+
+</body>
+</html>
